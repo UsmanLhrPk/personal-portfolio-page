@@ -1,0 +1,122 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  background-color: #448D76;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:  80px;
+  width: 100%;
+  line-height: 80px;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#logo-div {
+  font-size: 40px;
+  margin-left: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+#logo {
+  color: #340926;
+  font-weight: bold;
+}
+
+#nav-list {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 25px; 
+  width: 30%;
+
+}
+
+#nav-list a {
+  color: #FCBA12;
+  padding: 0 15px;
+}
+
+#nav-list a:hover {
+  background-color: #AE0D7A;
+}
+
+#main-section {
+  padding-top: 50px;
+  background-color: #D4F7EC;
+}
+
+#welcome-section {
+  padding-bottom: 150px;
+  padding-top: 130px;
+}
+#welcome-section h1 {
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: normal;
+  color: #AE0D7A;
+  margin-bottom: 10px;
+}
+
+#welcome-section h2 {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Calibri', cursive;
+  color: #448D76;
+  margin-top: 0;
+  font-style: italic;
+}
+
+#projects {
+  background-color: #D61A46;
+  padding-top: 80px;
+}
+
+.projects-heading {
+  font-family: 'Calibri';
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 2%;
+  justify-content: center;
+}
+
+.project-tile {
+  width: 28%;
+  height: 400px;
+  margin-right: 2%; 
+  margin-left: 2%;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px black dotted;
+}
+
+.project-tile img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
